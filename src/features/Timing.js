@@ -31,14 +31,14 @@ export const Timing = ({ onChangeTime }) => {
         size={50}
         title={"25"}
         onPress={() => {
-          onChangeTime(20);
+          onChangeTime(25);
         }}
       />
       <RoundedButton
         size={50}
         title={"30"}
         onPress={() => {
-          onChangeTime(20);
+          onChangeTime(30);
         }}
       />
     </View>
